@@ -1,0 +1,22 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+.animes-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    list-style: none;
+    grid-gap: 1.5rem;
+  }
+.animes-list img {
+    max-width: 100%;
+}
+.input-search {
+    width: 50%;
+    font-size: 2rem;
+    padding: 0.8rem;
+    color: var(--black);
+    border-radius: 6px;
+    outline: none;
+    border: solid 1px #000;
+  }
