@@ -5,6 +5,10 @@
 
 <img align="center" src="https://media.giphy.com/media/xT8qBsOjMOcdeGJIU8/giphy.gif" alt= "gif"><br /><br />
 
+<p align="center"> Implementação de lista de animes com filtro de busca em ReactJS e  CSS com  3D. 🚀 </p><br>
+
+<img align="center" src="https://media.giphy.com/media/BuD5Y9qlmCNCQQ8WVZ/giphy.gif" alt= "gif"><br /><br />
+
 
 
 
