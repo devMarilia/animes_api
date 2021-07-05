@@ -14,7 +14,7 @@
 
 
 ### Dependências 
-
+ ```yarn add react-icons```
 
 
 ## Ícones para commits padrão

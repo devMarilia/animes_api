@@ -1,0 +1,26 @@
+.Titulo {
+    display: block;
+    color: #000;
+    font-size: 4em;
+    text-align: initial;
+    margin-top: 0.65em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+  }
+  .Titulo p {
+    line-height: 6rem;
+  }
+  
+  .typing-animation {
+    animation: typing 1.5s steps(40) 1s normal;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0em;
+    }
+    to {
+      width: 18em;
+    }
+  }
