@@ -1,0 +1,36 @@
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-content {
+    position: relative;
+    width: 100%;
+  }
+  
+  .input-search {
+    width: 50%;
+    font-size: 2rem;
+    padding: 0.8rem;
+    color: #000;
+    border-radius: 6px;
+    outline: none;
+    border: solid 1px #000;
+  }
+  
+  svg {
+    position: absolute;
+    right: 25rem;
+    top: 1.1rem;
+    width: 2rem;
+    height: 2rem;
+  }
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}

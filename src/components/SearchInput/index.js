@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
-import '../../styles/styled.css'
+import './SearchInputElement.css'
 import useDebounce from '../../hooks/useDebounce';
+import {FaSearch} from 'react-icons/fa'
+
 
 function  SearchInput({value, onChange}) {
     const [displayValue,setDisplayValue] = useState(value)
@@ -12,7 +14,18 @@ function  SearchInput({value, onChange}) {
         debouncedChenge(event.target.value)
     }
     return (
-       <input className="input-search" type="search" value={displayValue} onChange={handleChange}/>
+        <div className='search-container'>
+        <div className='search-content'>
+          <input 
+          className='input-search' 
+          type='search' 
+          value={displayValue} 
+          onChange={handleChange} 
+          placeholder="Busque por um produto"
+          />
+          <FaSearch />
+        </div>
+      </div>
     )
 }
 
